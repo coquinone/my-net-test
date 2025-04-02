@@ -70,6 +70,10 @@
             "System.Resources.Extensions": {
               "target": "Package",
               "version": "[*, )"
+            },
+            "System.ServiceProcess.ServiceController": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
           "imports": [

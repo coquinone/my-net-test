@@ -2,6 +2,7 @@ using System.ServiceProcess;
 using System.Diagnostics;
 using System;
 using CoreWCF;
+using System.ServiceProcess;
 
 
 namespace WcfServiceLibrary.WindowsServiceHost
