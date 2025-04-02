@@ -2,7 +2,7 @@ using System.ServiceProcess;
 using System.Diagnostics;
 using System;
 using CoreWCF;
-using CoreWCF.Configuration;
+using System.ServiceProcess;
 
 
 namespace WcfServiceLibrary.WindowsServiceHost
@@ -10,12 +10,12 @@ namespace WcfServiceLibrary.WindowsServiceHost
     public partial class Service1 : ServiceBase
     {
 
-        CoreWCF.ServiceHost serviceHost;
+        ServiceHost serviceHost; 
 
         public Service1()
         {
             InitializeComponent();
-            serviceHost = new CoreWCF.ServiceHost(typeof(WcfServiceLibrary.Service1));
+            serviceHost = new ServiceHost(typeof(WcfServiceLibrary.Service1));
         }
 
         internal void StartInDebug()
