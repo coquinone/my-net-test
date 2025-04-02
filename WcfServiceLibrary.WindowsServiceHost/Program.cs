@@ -1,31 +1,26 @@
-﻿using System;
-using System.ServiceProcess;
+
+using CoreWCF.Configuration;
+using System.Net;
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+
 
 namespace WcfServiceLibrary.WindowsServiceHost
 {
-    static class Program
-    {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        static void Main()
-        {
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+      //All Ports set are default.
+			IWebHost host = CreateWebHostBuilder(args).Build();
+      host.Run();
+		}
 
-#if DEBUG
-            Service1 service1 = new Service1();
-            service1.StartInDebug();
-
-            System.Threading.Thread.Sleep(new TimeSpan(1, 0, 0));
-#else
-
-            ServiceBase[] ServicesToRun;
-            ServicesToRun = new ServiceBase[]
-            {
-                new Service1()
-            };
-            ServiceBase.Run(ServicesToRun);
-#endif
-
-        }
-    }
+    public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+      WebHost.CreateDefaultBuilder(args)
+				 .UseKestrel(options => { 
+options.ListenLocalhost(8080);})
+.UseNetTcp(8000)				 .UseStartup<Startup>();
+	}
 }

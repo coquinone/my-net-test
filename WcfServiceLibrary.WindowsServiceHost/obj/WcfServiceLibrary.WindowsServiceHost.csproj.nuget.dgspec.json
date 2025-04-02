@@ -1,0 +1,172 @@
+{
+  "format": 1,
+  "restore": {
+    "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/WcfServiceLibrary.WindowsServiceHost/WcfServiceLibrary.WindowsServiceHost.csproj": {}
+  },
+  "projects": {
+    "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/WcfServiceLibrary.WindowsServiceHost/WcfServiceLibrary.WindowsServiceHost.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/WcfServiceLibrary.WindowsServiceHost/WcfServiceLibrary.WindowsServiceHost.csproj",
+        "projectName": "WcfServiceLibrary.WindowsServiceHost",
+        "projectPath": "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/WcfServiceLibrary.WindowsServiceHost/WcfServiceLibrary.WindowsServiceHost.csproj",
+        "packagesPath": "/tmp/tempfspartition/QnetTransformArtifacts/packages",
+        "outputPath": "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/WcfServiceLibrary.WindowsServiceHost/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/WcfServiceLibrary/WcfServiceLibrary.csproj": {
+                "projectPath": "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/WcfServiceLibrary/WcfServiceLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CoreWCF.ConfigurationManager": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "CoreWCF.Http": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "CoreWCF.NetTcp": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "CoreWCF.Primitives": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/root/.dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/WcfServiceLibrary/WcfServiceLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/WcfServiceLibrary/WcfServiceLibrary.csproj",
+        "projectName": "WcfServiceLibrary",
+        "projectPath": "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/WcfServiceLibrary/WcfServiceLibrary.csproj",
+        "packagesPath": "/tmp/tempfspartition/QnetTransformArtifacts/packages",
+        "outputPath": "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/WcfServiceLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CoreWCF.Http": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "CoreWCF.NetTcp": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "CoreWCF.Primitives": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/root/.dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
