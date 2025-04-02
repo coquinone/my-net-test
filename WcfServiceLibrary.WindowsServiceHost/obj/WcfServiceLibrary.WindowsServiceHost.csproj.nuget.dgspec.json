@@ -67,13 +67,17 @@
               "target": "Package",
               "version": "[*, )"
             },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "System.Resources.Extensions": {
               "target": "Package",
               "version": "[*, )"
-            },
-            "System.ServiceProcess.ServiceController": {
-              "target": "Package",
-              "version": "[9.0.3, )"
             }
           },
           "imports": [
