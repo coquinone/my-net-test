@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace WcfServiceLibrary.WindowsServiceHost
 {
-    public partial class ProjectInstaller : System.ComponentModel.Component
+    public class ProjectInstaller : System.ComponentModel.Component
     {
         public ProjectInstaller()
         {
-            InitializeComponent();
+            // Constructor logic (if any) goes here
         }
     }
 }

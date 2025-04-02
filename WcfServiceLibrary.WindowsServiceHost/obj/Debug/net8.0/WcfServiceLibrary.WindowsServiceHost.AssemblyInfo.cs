@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WcfServiceLibrary.WindowsServiceHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f24ff1d04cb0f6aba9a47c458d610edd7d4d16a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3a1cbf76f0f5bd4dd56c57f36cbcd87ee403afd")]
 [assembly: System.Reflection.AssemblyProductAttribute("WcfServiceLibrary.WindowsServiceHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WcfServiceLibrary.WindowsServiceHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
