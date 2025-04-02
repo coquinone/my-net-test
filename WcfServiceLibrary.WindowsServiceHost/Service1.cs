@@ -2,21 +2,42 @@ using System.ServiceProcess;
 using System.Diagnostics;
 using System;
 using CoreWCF;
-using System.ServiceProcess;
-
+using CoreWCF.Configuration;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 
 namespace WcfServiceLibrary.WindowsServiceHost
 {
     public partial class Service1 : ServiceBase
     {
-
-        ServiceHost serviceHost; 
+        private IHost host;
 
         public Service1()
         {
             InitializeComponent();
-            serviceHost = new ServiceHost(typeof(WcfServiceLibrary.Service1));
+            host = CreateHostBuilder().Build();
         }
+
+        private IHostBuilder CreateHostBuilder() =>
+            Host.CreateDefaultBuilder()
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseKestrel()
+                        .UseUrls("http://localhost:8080")
+                        .ConfigureServices(services =>
+                        {
+                            services.AddServiceModelServices();
+                            services.AddServiceModelMetadata();
+                        })
+                        .Configure(app =>
+                        {
+                            app.UseServiceModel(serviceBuilder =>
+                            {
+                                serviceBuilder.AddService<WcfServiceLibrary.Service1>();
+                                serviceBuilder.AddServiceEndpoint<WcfServiceLibrary.Service1, WcfServiceLibrary.IService1>(new CoreWCF.BasicHttpBinding(), "/Service1");
+                            });
+                        });
+                });
 
         internal void StartInDebug()
         {
@@ -27,12 +48,12 @@ namespace WcfServiceLibrary.WindowsServiceHost
         {
             try
             {
-                serviceHost.Open();
+                host.Start();
             }
             catch (Exception ex)
             {
-                string erroMessage = $"Error starting service, {ex.Message}";
-                EventLog.WriteEntry("WcfServiceLibraryServiceHost", erroMessage, EventLogEntryType.Error);
+                string errorMessage = $"Error starting service, {ex.Message}";
+                EventLog.WriteEntry("WcfServiceLibraryServiceHost", errorMessage, EventLogEntryType.Error);
                 EventLog.WriteEntry("WcfServiceLibraryServiceHost", ex.ToString(), EventLogEntryType.Error);
                 throw;
             }
@@ -42,12 +63,12 @@ namespace WcfServiceLibrary.WindowsServiceHost
         {
             try
             {
-                serviceHost.Close();
+                host.StopAsync().GetAwaiter().GetResult();
             }
             catch (Exception ex)
             {
-                string erroMessage = $"Error stopping service, {ex.Message}";
-                EventLog.WriteEntry("WcfServiceLibraryServiceHost", erroMessage, EventLogEntryType.Error);
+                string errorMessage = $"Error stopping service, {ex.Message}";
+                EventLog.WriteEntry("WcfServiceLibraryServiceHost", errorMessage, EventLogEntryType.Error);
                 EventLog.WriteEntry("WcfServiceLibraryServiceHost", ex.ToString(), EventLogEntryType.Error);
                 throw;
             }

@@ -10,11 +10,10 @@
 using System;
 using System.Reflection;
 
-[assembly: CoreWCF.EnableCoreWCFOperationInvokerGenerator(false)]
 [assembly: System.Reflection.AssemblyCompanyAttribute("WcfServiceLibrary.WindowsServiceHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+caefa382226cca61d44f23289db641598a13e283")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f24ff1d04cb0f6aba9a47c458d610edd7d4d16a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("WcfServiceLibrary.WindowsServiceHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WcfServiceLibrary.WindowsServiceHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
