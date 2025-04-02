@@ -1689,10 +1689,10 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "System.Configuration.ConfigurationManager/8.0.0": {
+      "System.Configuration.ConfigurationManager/8.0.1": {
         "type": "package",
         "dependencies": {
-          "System.Diagnostics.EventLog": "8.0.0",
+          "System.Diagnostics.EventLog": "8.0.1",
           "System.Security.Cryptography.ProtectedData": "8.0.0"
         },
         "compile": {
@@ -3912,10 +3912,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Configuration.ConfigurationManager/8.0.0": {
-      "sha512": "JlYi9XVvIREURRUlGMr1F6vOFLk7YSY4p1vHo4kX3tQ0AGrjqlRWHDi66ImHhy6qwXBG3BJ6Y1QlYQ+Qz6Xgww==",
+    "System.Configuration.ConfigurationManager/8.0.1": {
+      "sha512": "gPYFPDyohW2gXNhdQRSjtmeS6FymL2crg4Sral1wtvEJ7DUqFCDWDVbbLobASbzxfic8U1hQEdC7hmg9LHncMw==",
       "type": "package",
-      "path": "system.configuration.configurationmanager/8.0.0",
+      "path": "system.configuration.configurationmanager/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3937,7 +3937,7 @@
         "lib/net8.0/System.Configuration.ConfigurationManager.xml",
         "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
         "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
-        "system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+        "system.configuration.configurationmanager.8.0.1.nupkg.sha512",
         "system.configuration.configurationmanager.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -4845,7 +4845,6 @@
       "CoreWCF.NetTcp >= *",
       "CoreWCF.Primitives >= *",
       "Microsoft.AspNetCore >= *",
-      "System.Configuration.ConfigurationManager >= 8.0.0",
       "System.Resources.Extensions >= *",
       "System.ServiceProcess.ServiceController >= 9.0.3",
       "WcfServiceLibrary >= 1.0.0"
@@ -4917,10 +4916,6 @@
             "target": "Package",
             "version": "[*, )"
           },
-          "System.Configuration.ConfigurationManager": {
-            "target": "Package",
-            "version": "[8.0.0, )"
-          },
           "System.Resources.Extensions": {
             "target": "Package",
             "version": "[*, )"
@@ -4949,16 +4944,5 @@
         "runtimeIdentifierGraphPath": "/root/.dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: System.Configuration.ConfigurationManager from 8.0.1 to 8.0.0. Reference the package directly from the project to select a different version. \n WcfServiceLibrary.WindowsServiceHost -> CoreWCF.ConfigurationManager 1.7.0 -> System.Configuration.ConfigurationManager (>= 8.0.1) \n WcfServiceLibrary.WindowsServiceHost -> System.Configuration.ConfigurationManager (>= 8.0.0)",
-      "libraryId": "System.Configuration.ConfigurationManager",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

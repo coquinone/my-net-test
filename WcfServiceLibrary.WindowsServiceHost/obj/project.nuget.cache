@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "ZU8dtopHgtA=",
-  "success": false,
+  "dgSpecHash": "fNvKwHs5T7Y=",
+  "success": true,
   "projectFilePath": "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/WcfServiceLibrary.WindowsServiceHost/WcfServiceLibrary.WindowsServiceHost.csproj",
   "expectedPackageFiles": [
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/corewcf.configurationmanager/1.7.0/corewcf.configurationmanager.1.7.0.nupkg.sha512",
@@ -82,7 +82,7 @@
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/swashbuckle.aspnetcore.swagger/7.2.0/swashbuckle.aspnetcore.swagger.7.2.0.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.buffers/4.6.0/system.buffers.4.6.0.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.collections.immutable/9.0.3/system.collections.immutable.9.0.3.nupkg.sha512",
-    "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.configuration.configurationmanager/8.0.0/system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.configuration.configurationmanager/8.0.1/system.configuration.configurationmanager.8.0.1.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.diagnostics.diagnosticsource/8.0.1/system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.diagnostics.eventlog/9.0.3/system.diagnostics.eventlog.9.0.3.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.directoryservices/8.0.0/system.directoryservices.8.0.0.nupkg.sha512",
@@ -109,15 +109,5 @@
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.threading.tasks.extensions/4.6.0/system.threading.tasks.extensions.4.6.0.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.web.services.description/8.1.1/system.web.services.description.8.1.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: System.Configuration.ConfigurationManager from 8.0.1 to 8.0.0. Reference the package directly from the project to select a different version. \n WcfServiceLibrary.WindowsServiceHost -> CoreWCF.ConfigurationManager 1.7.0 -> System.Configuration.ConfigurationManager (>= 8.0.1) \n WcfServiceLibrary.WindowsServiceHost -> System.Configuration.ConfigurationManager (>= 8.0.0)",
-      "libraryId": "System.Configuration.ConfigurationManager",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
