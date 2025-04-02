@@ -1,0 +1,14 @@
+C:\Users\KathleenWest\Dropbox\Career\Classes\UC San Diego Extension\Distributed Programming Using WCF, REST and the Web API\Labs\Lab1\Lab1Service\TestClient\bin\Debug\TestClient.exe.config
+C:\Users\KathleenWest\Dropbox\Career\Classes\UC San Diego Extension\Distributed Programming Using WCF, REST and the Web API\Labs\Lab1\Lab1Service\TestClient\bin\Debug\TestClient.exe
+C:\Users\KathleenWest\Dropbox\Career\Classes\UC San Diego Extension\Distributed Programming Using WCF, REST and the Web API\Labs\Lab1\Lab1Service\TestClient\bin\Debug\TestClient.pdb
+C:\Users\KathleenWest\Dropbox\Career\Classes\UC San Diego Extension\Distributed Programming Using WCF, REST and the Web API\Labs\Lab1\Lab1Service\TestClient\obj\Debug\TestClient.csprojAssemblyReference.cache
+C:\Users\KathleenWest\Dropbox\Career\Classes\UC San Diego Extension\Distributed Programming Using WCF, REST and the Web API\Labs\Lab1\Lab1Service\TestClient\obj\Debug\TestClient.csproj.CoreCompileInputs.cache
+C:\Users\KathleenWest\Dropbox\Career\Classes\UC San Diego Extension\Distributed Programming Using WCF, REST and the Web API\Labs\Lab1\Lab1Service\TestClient\obj\Debug\TestClient.exe
+C:\Users\KathleenWest\Dropbox\Career\Classes\UC San Diego Extension\Distributed Programming Using WCF, REST and the Web API\Labs\Lab1\Lab1Service\TestClient\obj\Debug\TestClient.pdb
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\TestClient\bin\Debug\TestClient.exe.config
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\TestClient\bin\Debug\TestClient.exe
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\TestClient\bin\Debug\TestClient.pdb
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\TestClient\obj\Debug\TestClient.csprojAssemblyReference.cache
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\TestClient\obj\Debug\TestClient.csproj.CoreCompileInputs.cache
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\TestClient\obj\Debug\TestClient.exe
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\TestClient\obj\Debug\TestClient.pdb

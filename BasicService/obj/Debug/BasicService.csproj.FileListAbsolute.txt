@@ -1,0 +1,7 @@
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\BasicService\bin\BasicService.dll.config
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\BasicService\bin\BasicService.dll
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\BasicService\bin\BasicService.pdb
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\BasicService\obj\Debug\BasicService.csprojAssemblyReference.cache
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\BasicService\obj\Debug\BasicService.csproj.CoreCompileInputs.cache
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\BasicService\obj\Debug\BasicService.dll
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\BasicWCFServiceApplication&ClientConsoleApplication\BasicService\obj\Debug\BasicService.pdb
