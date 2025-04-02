@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CoreWCF;
-using System.ServiceModel;
 
 
 namespace WcfServiceLibrary.SampleHost
@@ -14,7 +13,7 @@ namespace WcfServiceLibrary.SampleHost
         static void Main(string[] args)
         {
             CoreWCF.BasicHttpBinding wSHttpBinding = new CoreWCF.BasicHttpBinding();
-            EndpointAddress endpointAddress = new EndpointAddress(@"http://localhost:8743/testservice/WcfServiceLibrary");
+            CoreWCF.EndpointAddress endpointAddress = new CoreWCF.EndpointAddress(@"http://localhost:8743/testservice/WcfServiceLibrary");
             ChannelFactory<IService1> channelFactory = new ChannelFactory<IService1>(wSHttpBinding, endpointAddress);
             IService1 proxyObject = channelFactory.CreateChannel();
 
