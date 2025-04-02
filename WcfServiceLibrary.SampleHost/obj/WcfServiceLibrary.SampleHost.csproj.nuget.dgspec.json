@@ -63,6 +63,10 @@
               "target": "Package",
               "version": "[*, )"
             },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "System.ServiceModel.Primitives": {
               "target": "Package",
               "version": "[6.0.0, )"

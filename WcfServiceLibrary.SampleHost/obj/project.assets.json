@@ -1810,6 +1810,63 @@
           }
         }
       },
+      "System.ServiceModel.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ServiceModel.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.ServiceModel.Http.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.ServiceModel.Http.dll": {
+            "related": ".pdb"
+          }
+        },
+        "resource": {
+          "lib/net6.0/cs/System.ServiceModel.Http.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net6.0/de/System.ServiceModel.Http.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0/es/System.ServiceModel.Http.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0/fr/System.ServiceModel.Http.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0/it/System.ServiceModel.Http.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net6.0/ja/System.ServiceModel.Http.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0/ko/System.ServiceModel.Http.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0/pl/System.ServiceModel.Http.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net6.0/pt-BR/System.ServiceModel.Http.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0/ru/System.ServiceModel.Http.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0/tr/System.ServiceModel.Http.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0/zh-Hans/System.ServiceModel.Http.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net6.0/zh-Hant/System.ServiceModel.Http.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "System.ServiceModel.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -4197,6 +4254,35 @@
         "version.txt"
       ]
     },
+    "System.ServiceModel.Http/6.0.0": {
+      "sha512": "hHIv339ehbkFMkZROzSxL9IdG5prE/M1BMQaqBNsFfVOlPVo7prhG/v0G+YKebw2jTp5vJv+JRuzsTQqLmcC7g==",
+      "type": "package",
+      "path": "system.servicemodel.http/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/System.ServiceModel.Http.dll",
+        "lib/net6.0/System.ServiceModel.Http.pdb",
+        "lib/net6.0/cs/System.ServiceModel.Http.resources.dll",
+        "lib/net6.0/de/System.ServiceModel.Http.resources.dll",
+        "lib/net6.0/es/System.ServiceModel.Http.resources.dll",
+        "lib/net6.0/fr/System.ServiceModel.Http.resources.dll",
+        "lib/net6.0/it/System.ServiceModel.Http.resources.dll",
+        "lib/net6.0/ja/System.ServiceModel.Http.resources.dll",
+        "lib/net6.0/ko/System.ServiceModel.Http.resources.dll",
+        "lib/net6.0/pl/System.ServiceModel.Http.resources.dll",
+        "lib/net6.0/pt-BR/System.ServiceModel.Http.resources.dll",
+        "lib/net6.0/ru/System.ServiceModel.Http.resources.dll",
+        "lib/net6.0/tr/System.ServiceModel.Http.resources.dll",
+        "lib/net6.0/zh-Hans/System.ServiceModel.Http.resources.dll",
+        "lib/net6.0/zh-Hant/System.ServiceModel.Http.resources.dll",
+        "system.servicemodel.http.6.0.0.nupkg.sha512",
+        "system.servicemodel.http.nuspec"
+      ]
+    },
     "System.ServiceModel.Primitives/6.0.0": {
       "sha512": "uGyB5FMdwiBmSgJtB0x9mWUuGYj/RbXjh8I6FtsZmUAVcFc6qjOasHPHnflHUk+Qqbx7cAFugDUa2HFRtDe1QA==",
       "type": "package",
@@ -4400,6 +4486,7 @@
       "CoreWCF.NetTcp >= *",
       "CoreWCF.Primitives >= *",
       "Microsoft.AspNetCore >= *",
+      "System.ServiceModel.Http >= 6.0.0",
       "System.ServiceModel.Primitives >= 6.0.0",
       "WcfServiceLibrary >= 1.0.0"
     ]
@@ -4465,6 +4552,10 @@
           "Microsoft.AspNetCore": {
             "target": "Package",
             "version": "[*, )"
+          },
+          "System.ServiceModel.Http": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           },
           "System.ServiceModel.Primitives": {
             "target": "Package",
